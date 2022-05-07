@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-/.env
+.env
+
 
 # testing
 /coverage
@@ -18,6 +19,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env.staging.local
+
+git rm env.local --cached
+git rm env.staging --cached
+git commit -m "Stopped tracking env.local, and env.staging"
 
 npm-debug.log*
 yarn-debug.log*
