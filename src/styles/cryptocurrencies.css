@@ -1,0 +1,14 @@
+.allCryptoDisplay {
+    display: flex;
+        flex-wrap: wrap;
+    justify-content: space-between,
+}
+.card-value{
+    background-color: azure;
+}
+.avatar{
+    
+}
+.makeOlUnordered{
+    list-style-type: none;
+}

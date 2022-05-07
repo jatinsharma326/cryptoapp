@@ -1,0 +1,12 @@
+.ulCryptoNews{
+    list-style-type:none;
+}
+.allCryptoNewsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between,
+}
+.newsanchor{
+    text-decoration: none;
+    color: rgb(86, 34, 34);
+}
