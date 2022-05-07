@@ -24,7 +24,7 @@ const CryptoCurrencies = () => {
       },
       headers: {
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
-        "X-RapidAPI-Key": "58230379demshd8088ed76aef514p104206jsnd5ea2279606a",
+        "X-RapidAPI-Key": `${process.env.React_APP_CryptoData_Key}`,
       },
     })
       .then((response) => {

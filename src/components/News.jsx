@@ -15,7 +15,7 @@ const News = () => {
       url: "https://cryptocurrency-news-live.p.rapidapi.com/bitcoin-news",
       headers: {
         "X-RapidAPI-Host": "cryptocurrency-news-live.p.rapidapi.com",
-        "X-RapidAPI-Key": "58230379demshd8088ed76aef514p104206jsnd5ea2279606a",
+        "X-RapidAPI-Key": `${process.env.React_APP_CryptoData_Key}`,
       },
     })
       .then((response) => {
